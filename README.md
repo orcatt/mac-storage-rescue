@@ -20,7 +20,7 @@
 | Claude Cowork 虚拟机 | `~/Library/Application Support/Claude/vm_bundles` | 9.9GB，不用 Cowork 才删 |
 | 微信本地聊天文件 | `xwechat_files` | 2.3GB，用户明确确认 |
 
-最终：**512MB → 47GB 可用空间**，实际回收约 46GB。
+最终：**512MB → 47GB 可用空间**，实际回收约 46GB。清理完成时是峰值；Xcode 和壁纸缓存随后重建，当前稳定在约 40GB。
 
 完整复盘见 [`references/case-study.md`](references/case-study.md)。
 

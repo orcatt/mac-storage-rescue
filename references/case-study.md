@@ -130,6 +130,8 @@ Simulator:   17.1 GB (separate APFS container)
 
 最终释放约 **46GB** 实际空间。
 
+清理完成后，Xcode 重新生成了约 3.6GB `DerivedData`，壁纸缓存也重新下载了约 0.9GB，所以当前可用空间回落到约 40GB。**47GB 是刚清完的峰值，40GB 是缓存重建后的稳定值**。这也是为什么报告要区分“本次释放”和“长期可用”。
+
 ## 刻意没删的东西
 
 - 当前在用的 iPhone DeviceSupport（6.8GB）：还在真机调试。
