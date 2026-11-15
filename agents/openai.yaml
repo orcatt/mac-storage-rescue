@@ -1,0 +1,8 @@
+interface:
+  display_name: "Mac 存储急救"
+  short_description: "定位 macOS 隐藏占用，安全回收数十 GB"
+  brand_color: "#0EA5E9"
+  default_prompt: "Use $mac-storage-rescue to audit this Mac, explain what is consuming disk space, and reclaim only safe caches."
+
+policy:
+  allow_implicit_invocation: true
